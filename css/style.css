@@ -28,14 +28,14 @@
 }
 
 .header-text-area {
-    padding-left: 240px;
+    margin-left: 240px;
 }
 
 .header-text {
     color: #272727;
     font-family: Lato;
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 50px;
+    font-weight: 900;
     margin-bottom: 32px;
 }
 
@@ -45,15 +45,14 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
-    max-width: 634px;
-    max-width: 435px;
+    max-width: 410px;
 }
 
 .header-img {
     margin-right: 240px;
     margin-top: 50px;
     object-fit: cover;
-    max-width: 435px;
+    max-height: 635px;
     vertical-align: bottom;
 }
 
@@ -61,7 +60,7 @@
 /* main container featured flowers */
 
 .main-section {
-    margin: 178px 240px 128px 240px;
+    margin: 138px 240px 128px 240px;
 }
 
 .main-title {
@@ -81,6 +80,9 @@
     font-weight: 400;
     margin-bottom: 48px;
 }
+
+
+/* featured flower section */
 
 .flowers-imgs {
     display: flex;
@@ -117,7 +119,7 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 35px;
+    margin-top: 32px;
     text-decoration-line: underline;
 }
 
@@ -129,10 +131,73 @@
     gap: 100px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    padding: 86px 175px;
     text-align: center;
+    padding: 86px 175px;
 }
 
 .order-details p {
     margin-top: 24px;
+}
+
+.banner-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 156px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.banner-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.sign-up {
+    margin-top: 32px;
+}
+
+.sales-off {
+    color: #E55473;
+}
+
+.banner-details {
+    margin-left: 150px;
+}
+
+.banner-img {
+    width: 318px;
+    height: 420px;
+    margin: 70px 200px 70px;
+}
+
+.insta-details {
+    text-align: center;
+}
+
+.insta-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.insta-text {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.insta-pic {
+    width: 280px;
+    height: 240px;
 }
