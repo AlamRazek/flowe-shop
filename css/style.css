@@ -1,4 +1,138 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* common btn class */
+
+.btn {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 32px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(229, 84, 115, 0.10);
+    gap: 97px;
+}
+
+.header-text-area {
+    padding-left: 240px;
+}
+
+.header-text {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.header-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 634px;
+    max-width: 435px;
+}
+
+.header-img {
+    margin-right: 240px;
+    margin-top: 50px;
+    object-fit: cover;
+    max-width: 435px;
+    vertical-align: bottom;
+}
+
+
+/* main container featured flowers */
+
+.main-section {
+    margin: 178px 240px 128px 240px;
+}
+
+.main-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.main-text {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.flowers-imgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.flower-img {
+    width: 310px;
+    height: 428px;
+    padding: 110px 76px 0px 76px;
+    border-radius: 300px 300px 0px 0px;
+    margin: auto;
+}
+
+.flower-img.pink {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.flower-img.blue {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.flower-img.green {
+    background: rgba(71, 125, 17, 0.15);
+    ;
+}
+
+.flower-img-name {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.order-section {
+    margin-top: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 86px 175px;
+    text-align: center;
+}
+
+.order-details p {
+    margin-top: 24px;
 }
