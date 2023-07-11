@@ -20,6 +20,9 @@
     margin-top: 32px;
 }
 
+
+/* header area / section */
+
 .header-container {
     display: flex;
     align-items: center;
@@ -123,6 +126,9 @@
     margin-top: 32px;
     text-decoration-line: underline;
 }
+
+
+/* order now area */
 
 .order-section {
     margin-top: 128px;
