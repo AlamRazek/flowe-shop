@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;700;800&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -14,7 +15,7 @@
     border: none;
     background: #E55473;
     color: #FFF;
-    font-family: Lato;
+    font-family: lato;
     font-size: 20px;
     font-weight: 700;
     margin-top: 32px;
