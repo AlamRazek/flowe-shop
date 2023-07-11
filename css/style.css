@@ -22,6 +22,44 @@
 }
 
 
+/* nav-bar area */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 60px;
+    margin-left: 75px;
+}
+
+.nav-bar {
+    display: flex;
+    margin-right: 75px;
+}
+
+.nav-bar li {
+    list-style: none;
+    padding-left: 25px;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 18px;
+    color: #272727;
+    transition: all 0.2s linear;
+}
+
+.nav-bar li a:hover {
+    color: #E55473;
+}
+
+
 /* header area / section */
 
 .header-container {
@@ -220,6 +258,8 @@
 
 .latest-deal-section {
     background-image: url('../Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: auto;
     margin: 0 200px 100px 200px;
     text-align: center;
     padding: 70px 0 70px 0;
