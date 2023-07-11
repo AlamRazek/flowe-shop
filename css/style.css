@@ -197,7 +197,19 @@
     margin-bottom: 48px;
 }
 
+.insta-pics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 0 200px 100px 200px;
+}
+
 .insta-pic {
     width: 280px;
-    height: 240px;
+    height: 270px;
+}
+
+.latest-deal-section {
+    text-align: center;
 }
